@@ -1,0 +1,23 @@
+package com.TechForum.CollectionsHomework;
+
+import java.util.ArrayList;
+
+public class UserMainCodeOddEven {
+	public static ArrayList<Integer> generateOddEvenList(ArrayList<Integer> al1, ArrayList<Integer> al2){
+		
+		ArrayList<Integer> al3 = new ArrayList<Integer>();
+		
+		for (int i = 0; i < al1.size(); i++) {
+
+			if (i % 2 != 0) {
+				al1.remove(i);
+				
+			}
+		}
+		System.out.println("size:" + al1);
+		return al3;
+		
+		
+	}
+	
+}

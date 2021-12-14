@@ -1,0 +1,21 @@
+package com.TechForum.controlStatements;
+
+public class NumberTrianglePattern2 {
+
+	public static void main(String[] args) {
+		// Draw number triangle
+		int count = new NumberTrianglePattern2().drawTriangle();
+		System.out.println("count =" + count);
+	}
+
+	public int drawTriangle() {
+		int counter = 1;
+		for (int j = counter; j <= 10; j++) {
+			System.out.println(j);
+			counter = counter + j;
+			System.out.println("counter = " + counter);
+			// counter = counter+1;
+		}
+	}
+
+}

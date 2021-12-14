@@ -1,0 +1,12 @@
+package com.TechForum.CollectionsHomework;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class UserMainCodeOddEven {
+	Scanner sc = new Scanner(System.in);
+	
+	ArrayList<Integer> al1=new ArrayList<Integer>();
+	ArrayList<Integer> al2=new ArrayList<Integer>();
+	
+}

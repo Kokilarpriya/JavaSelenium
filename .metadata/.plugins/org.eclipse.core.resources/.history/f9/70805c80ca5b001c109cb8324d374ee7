@@ -1,0 +1,12 @@
+package com.TechForum.CollectionsHomework;
+
+public class UserMainCodeArrayList {
+	public static Integer sumEvenElements(){
+		Integer sum = 0;
+		return sum;
+	}
+	
+	public static void removeDuplicateElements() {
+		
+	}
+}

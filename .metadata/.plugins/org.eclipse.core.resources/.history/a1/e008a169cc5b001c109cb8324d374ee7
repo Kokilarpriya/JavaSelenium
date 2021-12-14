@@ -1,0 +1,39 @@
+package com.TechForum.CollectionsHomework;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class UserMainCodeArrayList {
+	public static Integer sumEvenElements(ArrayList<Integer> al){
+		Integer sum = 0;
+		Set<Integer> s = new HashSet<Integer>();
+		s.addAll(al);
+		System.out.println(s);
+		
+		/*for (int i = 1; i < s.size(); i++) {
+
+			if (i % 2 != 0) {
+				s.remove(i);
+				System.out.println("size:" + s);
+				Integer num = s.
+				sum = sum;
+			}
+		}*/
+		
+		Iterator itr = s.iterator();
+		while(itr.hasNext()) {
+			Integer str = (Integer) itr.next();
+			if(str%2 != 0) {
+				s.remove(str);
+				sum = sum +str;
+			}
+			System.out.println(sum);
+		}
+		
+		
+		return sum;
+	}
+	
+}

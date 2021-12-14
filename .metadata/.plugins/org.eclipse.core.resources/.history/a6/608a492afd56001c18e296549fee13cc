@@ -1,0 +1,21 @@
+package ArraysExample;
+
+public class MultiDimesionalArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int marks[][] = {{55,65,85,67,90},
+					{45,56,67,78,89,90},
+					{77,88,98,89,77}};
+			System.out.println(marks[2][3]);
+			
+	
+	for(int i=0;i<3;i++) {
+		
+		for(int j=0;j<5;j++) {
+			System.out.println( "marks["+i+"]{"+j+"]="+marks[i][j]);
+		}
+	}
+	}
+
+

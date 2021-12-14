@@ -1,0 +1,46 @@
+package com.TechForum.controlStatements;
+
+public class NumberTrianglePattern2 {
+
+	public static void main(String[] args) {
+		// Draw number triangle
+		new NumberTrianglePattern2().drawTriangle();
+		//new NumberTrianglePattern2().drawTriangle(6,10);
+		//new NumberTriangle().drawTriangle(1,10);
+	}
+
+	public void drawTriangle() {
+		int counter = 1;
+		for (int i = 1; i <= 10; i++) {
+			System.out.print("counter = " +counter);
+			//counter = counter+1; 
+			for (int j = counter; j <= 10; j++) {
+			System.out.print(j);
+			counter = counter+1; 
+			}
+			System.out.println();
+		}
+		//System.out.println();
+		
+//		for (int i = endNum; i >=startNum; i--) {
+//
+//			for (int j = startNum; j <= i ; j++) {
+//				System.out.print(j);
+//			}
+//			System.out.println();
+//		}
+//		System.out.println();
+//		
+		
+		/*for (int i = endNum; i >= startNum; i--) {
+
+			for (int j = i; j >= startNum; j--) {
+				System.out.print(j);
+			}
+			System.out.println();
+		}
+		System.out.println();*/
+		
+	}
+
+}

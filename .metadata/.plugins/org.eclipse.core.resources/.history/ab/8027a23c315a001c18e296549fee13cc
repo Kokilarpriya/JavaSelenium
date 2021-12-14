@@ -1,0 +1,11 @@
+package com.TechForum.Generics;
+
+import java.util.ArrayList;
+
+public class UserMainCodeRemoveMultiplesOfThree {
+	public static ArrayList<Integer> removeMultiplesOfThree(ArrayList<Integer> al) {
+		ArrayList<Integer> al2 = new ArrayList<Integer>();
+		return al2;
+
+	}
+}

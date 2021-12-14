@@ -1,0 +1,9 @@
+package com.TechForum.CollectionsHomework;
+
+public class UserMainCodeUniqueChar {
+	public static int checkUnique(String s) {
+		int numOfUniqueChar = 0;
+		System.out.println("Given string:"+s);
+		return numOfUniqueChar;
+	}
+}

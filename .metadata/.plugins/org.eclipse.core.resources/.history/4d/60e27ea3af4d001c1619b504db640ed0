@@ -1,0 +1,22 @@
+package com.TechForum.JavaPrograms;
+
+public class SumAndProduct {
+
+	public SumAndProduct() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	public static void sum(int a, int b) {
+		System.out.println("Sum of the two numbers ="+a+b);
+	}
+	
+	public void multiply(int a, int b) {
+		
+	}
+
+}

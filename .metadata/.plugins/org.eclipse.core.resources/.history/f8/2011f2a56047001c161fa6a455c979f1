@@ -1,0 +1,24 @@
+package com.TechForum.controlStatements;
+
+public class RectanglePerimeter {
+	
+	double perimeter;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		new RectanglePerimeter().getValues();
+
+	}
+	
+	public void getValues() {
+		
+	}
+	
+	public double perimeterCalculator(double length, double breadth) {
+		return perimeter;
+		
+	}
+	
+	
+
+}

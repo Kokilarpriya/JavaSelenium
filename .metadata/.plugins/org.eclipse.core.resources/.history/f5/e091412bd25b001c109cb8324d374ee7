@@ -1,0 +1,9 @@
+package com.TechForum.CollectionsHomework;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class UserMainCodeOddEven {
+	
+	
+}

@@ -1,0 +1,18 @@
+package com.TechForum.Generics;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 ArrayList<String> al=new ArrayList<String>();//Creating arraylist    
+	      al.add("Mango");//Adding object in arraylist    
+	      al.add("Apple");    
+	      al.add("Banana");    
+	      al.add("Grapes");    
+
+	      System.out.println(al);  
+	}
+
+}

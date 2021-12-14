@@ -1,0 +1,14 @@
+package com.TechForum.Generics;
+
+import java.util.HashMap;
+
+public class HashMapGetKey {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap<String,Integer> numbers = new HashMap<>();
+		numbers.put("One", 1)
+		
+	}
+
+}

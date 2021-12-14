@@ -1,0 +1,20 @@
+package com.TechForum.controlStatements;
+
+import java.util.Scanner;
+
+public class MultiplicationTable {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Please enter the number to print the corresponding multiplication table");
+		int tableNumber = sc.nextInt();
+		
+		new MultiplicationTable().printXTable(tableNumber);
+	}
+	
+	public void printXTable(int tableValue) {
+		
+		
+	}
+	
+}

@@ -1,0 +1,10 @@
+package com.TechForum.JavaPrograms;
+
+public class MovieRelease {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

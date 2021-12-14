@@ -1,0 +1,21 @@
+package com.TechForum.JavaPrograms;
+
+public class Base {
+	public class Base {
+		protected int count = 100;
+
+		public int getCount() {
+			return count;
+		}
+	}
+
+	public class Detived extends Base {
+	      protected int count= 10;
+	      public int getSize(){
+	         return count;
+	      }
+	      public static void main(String[] args) {
+	         Base b = new Derived();
+	         System.out.println (b.count + "," + b.getCount());   
+	      }
+}

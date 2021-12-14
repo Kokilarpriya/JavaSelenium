@@ -1,0 +1,24 @@
+package com.TechForum.Generics;
+
+public class GenericClass<T> {
+	
+	T obj;
+	
+	GenericClass(T obj){
+		this.obj = obj;
+	}
+
+	T getObject() {
+		return obj;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Create an object of Integer class
+		Integer i = 20;// This is same as Integer i = new Integer(20);
+		
+		GenericClass<Integer> obj = new GenericClass<Integer>(i);
+		System.out.println("Stored value: "+obj.getObject());
+
+	}
+
+}

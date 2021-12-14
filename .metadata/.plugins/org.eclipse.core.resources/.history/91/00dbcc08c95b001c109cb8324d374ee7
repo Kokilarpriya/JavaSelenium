@@ -1,0 +1,8 @@
+package com.TechForum.CollectionsHomework;
+
+public class UserMainCodeArrayList {
+	public static Integer sumElements(){
+		Integer sum = o;
+		return sum;
+	}
+}

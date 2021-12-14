@@ -1,0 +1,39 @@
+package com.TechForum.CollectionsHomework;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
+public class UserMainCodeOddEven {
+	public static ArrayList<Integer> generateOddEvenList(ArrayList<Integer> al1, ArrayList<Integer> al2){
+		
+		ArrayList<Integer> al3 = new ArrayList<Integer>();
+		Map<Integer, Integer> map1 = new HashMap<Integer, Integer>();
+		
+		System.out.println(al1.size());
+		//Array 1 odd elements
+		for (int i = 0; i < al1.size(); i++) {
+
+			if (i % 2 == 0) {
+				map1.put(i, al3.get(i));
+			}
+		}
+		System.out.println();
+		System.out.println("Array 1 odd elements:" + map1);
+		
+		//Array 2 even elements
+		for (int i = 0; i < al2.size(); i++) {
+
+			if (i % 2 != 0) {
+				al2.remove(i);
+				
+			}
+		}
+		System.out.println();
+		System.out.println("Array 2 even elements:" + al2);
+		return al3;
+		
+		
+	}
+	
+}

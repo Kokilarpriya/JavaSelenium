@@ -1,0 +1,28 @@
+package com.TechForum.CollectionsHomework;
+
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+public class UserMainCodeUniqueChar {
+	@SuppressWarnings("unchecked")
+	public static int checkUnique(String str) {
+		int numOfUniqueChar = 0;
+		System.out.println("Given string:"+str);
+		
+		// Creating array of string length
+        char[] ch = new char[str.length()];
+  
+        // Copy character by character into array
+        for (int i = 0; i < str.length(); i++) {
+            ch[i] = str.charAt(i);
+        }
+        
+		
+		Set<Character> s1 = new HashSet<Character>();
+		System.out.println(ch);
+		s1.addAll(ch);
+		
+		return numOfUniqueChar;
+	}
+}
